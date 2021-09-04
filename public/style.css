@@ -32626,6 +32626,13 @@ video {
   padding: 0;
 }
 
+body {
+  background-image: url('assets/main-background.png');
+  /* filter: blur(30px);
+    -webkit-filter: blur(30px);
+    -ms-filter: blur(30px); */
+}
+
 .logo-initial {
   font-family: 'Marck Script', 'Poppins', sans-serif;
   font-size: 3rem;
@@ -32634,6 +32641,29 @@ video {
 
 .divider img {
   transform: scale(0.50);
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+button{
+  border-radius: 1rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
 }
 
 @media (min-width: 640px){
@@ -190590,3 +190620,4 @@ video {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+

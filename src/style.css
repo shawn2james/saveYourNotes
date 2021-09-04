@@ -11,6 +11,13 @@
     padding: 0;
 }
 
+body {
+    background-image: url('assets/main-background.png');
+    /* filter: blur(30px);
+    -webkit-filter: blur(30px);
+    -ms-filter: blur(30px); */
+}
+
 .logo-initial {
     @apply font-marck-script text-5xl;
 }
@@ -18,3 +25,8 @@
 .divider img {
     transform: scale(0.50);
 }
+
+button {
+    @apply flex items-center justify-center space-x-2 font-semibold rounded-2xl px-1 py-1 text-xs;
+}
+
