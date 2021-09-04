@@ -1,0 +1,22 @@
+{
+  "name": "saveyournotes",
+  "version": "1.0.0",
+  "description": "A place to save your music ",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build -i ./src/style.css -o ./public/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawn2james/saveYourNotes.git"
+  },
+  "author": "Shawn James",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawn2james/saveYourNotes/issues"
+  },
+  "homepage": "https://github.com/shawn2james/saveYourNotes#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.9"
+  }
+}
