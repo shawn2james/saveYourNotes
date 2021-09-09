@@ -15,6 +15,7 @@ module.exports = {
       "colors": {
         "light": "#F8F8F8",
         "dark": colors.black,
+        "secondary": "#ADEFFE"
       }
     },
   },

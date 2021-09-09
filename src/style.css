@@ -12,10 +12,13 @@
 }
 
 body {
-    background-image: url('assets/main-background.png');
-    /* filter: blur(30px);
-    -webkit-filter: blur(30px);
-    -ms-filter: blur(30px); */
+    @apply font-poppins bg-body text-light tracking-wide;
+    height: 100vh;
+    width: 100vw;
+}
+
+.backdrop-container {
+    @apply bg-black bg-opacity-30 backdrop-blur-md h-full w-full;
 }
 
 .logo-initial {
