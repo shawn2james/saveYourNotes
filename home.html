@@ -5,47 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/home.css">
     <title>SaveYourNotes</title>
 </head>
 <body>
-    <div class="backdrop-container">
-        <header>
-            <div class="container w-full">
-                <!-- LOGO -->
-                <div class="w-full flex items-center justify-center h-32 text-xl" id="logo">
-                    <span class="logo-initial tracking">S</span><span>ave</span><span class="logo-initial">Y</span><span>our</span><span class="logo-initial">N</span><span>otes</span>  
-                    <img src="assets/music-icon.png" alt="">
-                </div>
-
-                <!-- NAVIGATION BUTTONS -->
-                <nav class="flex justify-evenly items-center text-sm w-10/12 m-auto">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="your_music.html">Log in</a>
-                    <button class="bg-light text-dark py-2 px-4">Sign up</button>
-                </nav>
+    <header>
+        <div class="container">
+            <!-- LOGO -->
+            <div class="logo w-full flex">
+                <span class="initial">S</span><span>ave</span><span class="initial">Y</span><span>our</span><span class="initial">N</span><span>otes</span>  
+                <img src="assets/music-icon.png" alt="">
             </div>
-        </header>
 
-        <main>
-            <div class="container">
-                <!-- HERO SECTION -->
-                <div class="w-10/12 m-auto" id="hero">
-                    <img src="assets/hero-illustration.png" class="w-8/12 h-auto m-auto">
-                    <span class="font-extrabold inline-block tracking-widest leading-relaxed text-2xl text-center w-full">SAVING YOUR<br>MUSIC HAVE<br>NEVER BEEN<br>EASIER</span>
-                </div>
-                <!-- DIVIDER -->
-                <div class="divider flex justify-evenly my-7">
-                    <img src="assets/music-icon.png" alt="">
-                    <img src="assets/music-icon.png" alt="">
-                    <img src="assets/music-icon.png" alt="">
-                    <img src="assets/music-icon.png" alt="">
-                    <img src="assets/music-icon.png" alt="">
-                    <img src="assets/music-icon.png" alt="">
-                </div>
+            <!-- NAVIGATION BUTTONS -->
+            <nav class="navbar flex justify-evenly">
+                <a href="#" class="nav-item">Home</a>
+                <a href="#" class="nav-item">About</a>
+                <a href="your_music.html" class="nav-item">Log in</a>
+                <button class="button-md nav-item">
+                    <a href="">Sign up</a>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- HERO SECTION -->
+            <div id="hero">
+                <img class="w-80 m-auto" src="assets/hero-illustration.png" id="hero-illustration">
+                <span id="hero-message">SAVING YOUR<br>MUSIC HAVE<br>NEVER BEEN<br>EASIER</span>
             </div>
-        </main>
-    </div>
+            <!-- DIVIDER -->
+            <div class="divider">
+                <img src="assets/music-icon.png" alt="">
+                <img src="assets/music-icon.png" alt="">
+                <img src="assets/music-icon.png" alt="">
+                <img src="assets/music-icon.png" alt="">
+                <img src="assets/music-icon.png" alt="">
+                <img src="assets/music-icon.png" alt="">
+            </div>
+        </div>
+    </main>
 </body>
 </html>

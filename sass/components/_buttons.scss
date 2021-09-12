@@ -1,0 +1,9 @@
+@use '../abstracts' as * ;
+
+.button-lg {
+    @include button($button-background: $dark, $size: "lg");
+}
+
+.button-md {
+    @include button($button-background: $dark, $size: "md");
+}

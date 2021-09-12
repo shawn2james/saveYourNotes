@@ -1,0 +1,40 @@
+.divider {
+    display: flex; 
+    justify-content: space-evenly;
+    margin: 1.75rem 0;
+
+    img {
+        transform: scale(0.5);
+    }
+}
+
+.flex { 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.justify-evenly { justify-content: space-evenly; }
+.justify-between { justify-content: space-between; }
+.justify-end { justify-content: flex-end; }
+.align-evenly { align-items: space-evenly; }
+.align-between { align-items: space-between; }
+.alig-end { align-items: flex-end; }
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.w-full { width: 100%; }
+.w-half { width: 50%; }
+.w-90 { width: 90%; }
+.w-80 { width: 80%; }
+.w-75 { width: 75%; }
+.w-60 { width: 60%; }
+
+.m-auto { margin: auto; }
+
+.container { 
+    width: 90%; 
+    padding: 20px 0;
+}

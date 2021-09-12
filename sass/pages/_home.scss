@@ -1,0 +1,21 @@
+@use '../abstracts' as *;
+
+.navbar {
+    .nav-item {
+        color: $light;
+        font-size: 0.875rem;
+    }
+}
+
+#hero {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 4px;
+    line-height: 2;
+
+    img {
+        height: auto;
+        margin: auto;
+    }
+}

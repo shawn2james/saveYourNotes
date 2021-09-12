@@ -5,98 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/my_music.css">
     <title>Your Music | SaveYourNotes</title>
 </head>
 <body>
-    <div class="backdrop-container">
-        <header>
-            <div class="container flex items-center w-11/12 h-28 m-auto">
-                <!-- PAGE HEADING -->
-                <span class="w-1/2 text-2xl tracking-wider font-bold flex items-center justify-center">YOUR MUSIC</span>
+    <header>
+        <div class="container flex justify-between">
+            <!-- PAGE HEADING -->
+            <div class="title" id="your-music-title">YOUR MUSIC</div>
 
-                <!-- FILTER & ADD BUTTONS -->
-                <div class="flex space-x-4 w-1/2 justify-center">
-                    <button class="w-10/12 bg-light text-dark">
-                        <span>Filter</span>
-                        <img src="assets/filter-icon.png" alt="" class="inline-block">
-                    </button>
-                    <button class="w-10/12 bg-light text-dark">
-                        <span>Add</span>
-                        <img src="assets/add-icon.png" alt="" class="inline-block">
-                    </button>
-                </div>
+            <!-- FILTER & ADD BUTTONS -->
+            <div class="flex w-50 justify-between">
+                <button class="button-md flex filter">
+                    Filter
+                    <img src="assets/filter-icon.png" alt="" class="inline-block">
+                </button>
+                <button class="button-md flex add">
+                    <span>Add</span>
+                    <img src="assets/add-icon.png" alt="" class="inline-block">
+                </button>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <main>
-            <div class="container space-y-8">
-                <div class="song flex h-40">
-                    <div class="w-1/2 bg-light py-3 space-y-4">
-                        <button class="bg-dark text-light w-10/12 m-auto">
-                            <span>Open</span>
-                            <img src="assets/open-icon.png" alt="" class="inline-block">
-                        </button>
-                        
-                        <button class="bg-dark text-light w-10/12 m-auto font-normal py-3">
-                            Go to original source
-                        </button>
+    <main>
+        <div class="container">
+            <div class="song flex">
+                <div class="open-section w-half">
+                    <button class="button-lg open">
+                        <span>Open</span>
+                        <img src="assets/open-icon.png" alt="">
+                    </button>
+                    
+                    <button class="button-lg original-source">
+                        Go to original source
+                    </button>
 
-                        <div class="text-dark text-center font-semibold w-full">by Aurora</div>
-                    </div>
-
-                    <div class="w-1/2 h-full font-bold flex justify-center items-center text-2xl">Runaway</div>
+                    <div class="author">by Aurora</div>
                 </div>
-                <div class="song flex h-40">
-                    <div class="w-1/2 bg-light py-3 space-y-4">
-                        <button class="bg-dark text-light w-10/12 m-auto">
-                            <span>Open</span>
-                            <img src="assets/open-icon.png" alt="" class="inline-block">
-                        </button>
-                        
-                        <button class="bg-dark text-light w-10/12 m-auto font-normal py-3">
-                            Go to original source
-                        </button>
 
-                        <div class="text-dark text-center font-semibold w-full">by Aurora</div>
-                    </div>
-
-                    <div class="w-1/2 h-full font-bold flex justify-center items-center text-2xl">Runaway</div>
-                </div>
-                <div class="song flex h-40">
-                    <div class="w-1/2 bg-light py-3 space-y-4">
-                        <button class="bg-dark text-light w-10/12 m-auto">
-                            <span>Open</span>
-                            <img src="assets/open-icon.png" alt="" class="inline-block">
-                        </button>
-                        
-                        <button class="bg-dark text-light w-10/12 m-auto font-normal py-3">
-                            Go to original source
-                        </button>
-
-                        <div class="text-dark text-center font-semibold w-full">by Aurora</div>
-                    </div>
-
-                    <div class="w-1/2 h-full font-bold flex justify-center items-center text-2xl">Runaway</div>
-                </div>
-                <div class="song flex h-40">
-                    <div class="w-1/2 bg-light py-3 space-y-4">
-                        <button class="bg-dark text-light w-10/12 m-auto">
-                            <span>Open</span>
-                            <img src="assets/open-icon.png" alt="" class="inline-block">
-                        </button>
-                        
-                        <button class="bg-dark text-light w-10/12 m-auto font-normal py-3">
-                            Go to original source
-                        </button>
-
-                        <div class="text-dark text-center font-semibold w-full">by Aurora</div>
-                    </div>
-
-                    <div class="w-1/2 h-full font-bold flex justify-center items-center text-2xl">Runaway</div>
-                </div>
+                <div class="song-name">Runaway</div>
             </div>
-        </main>
-    </div>
+        </div>
+    </main>
 </body>
 </html>

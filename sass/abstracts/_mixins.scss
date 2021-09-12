@@ -1,0 +1,18 @@
+@use 'variables' as *;
+@use 'functions' as *;
+
+@mixin button($button-background: $dark, $size: "sm") {
+    background-color: set-color($button-background);
+    color: set-color(set-color($button-background));
+    @if ($size: "lg") {
+        font-size: 15px;
+        padding: 8px 15px;
+    } @else {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    font-weight: 600;
+    border-radius: 20px;
+    margin: 0 5px;
+    border: 0;
+}
