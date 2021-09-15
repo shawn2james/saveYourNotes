@@ -1,3 +1,5 @@
+@use '../abstracts/' as *;
+
 .divider {
     display: flex; 
     justify-content: space-evenly;
@@ -13,17 +15,29 @@
     justify-content: center;
     align-items: center;
 }
+
+.flex-col { flex-direction: column; }
+
 .justify-evenly { justify-content: space-evenly; }
 .justify-between { justify-content: space-between; }
+.justify-around { justify-content: space-around; }
 .justify-end { justify-content: flex-end; }
+
 .align-evenly { align-items: space-evenly; }
 .align-between { align-items: space-between; }
+.align-around { align-items: space-around; }
 .alig-end { align-items: flex-end; }
 
 .container {
     width: 90%;
-    margin: auto;
+    margin: 0.5em auto;
+    padding: 1rem 0;
 }
+
+.c.note { background-color: $c-color;}
+.d.note { background-color: $d-color;}
+.e.note { background-color: $e-color;}
+.f.note { background-color: $f-color;}
 
 .w-full { width: 100%; }
 .w-half { width: 50%; }
@@ -31,10 +45,17 @@
 .w-80 { width: 80%; }
 .w-75 { width: 75%; }
 .w-60 { width: 60%; }
+.w-25 { width: 25%; }
+
+.h-full { height: 100%; }
+.h-half { height: 50%; }
+.h-90 { height: 90%; }
+.h-80 { height: 80%; }
+.h-75 { height: 75%; }
+.h-60 { height: 60%; }
 
 .m-auto { margin: auto; }
-
-.container { 
-    width: 90%; 
-    padding: 20px 0;
-}
+.m-1 { margin: 0.25rem;}
+.m-2 { margin: 0.5rem;}
+.m-3 { margin: 0.75rem;}
+.m-4 { margin: 1rem;}

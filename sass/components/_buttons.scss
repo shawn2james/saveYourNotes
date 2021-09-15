@@ -1,9 +1,22 @@
 @use '../abstracts' as * ;
 
-.button-lg {
+.button-sm-light {
+    @include button($button-background: $dark, $size: "sm");
+}
+.button-sm-dark {
+    @include button($button-background: $light, $size: "sm");
+}
+.button-lg-light {
     @include button($button-background: $dark, $size: "lg");
 }
+.button-lg-dark {
+    @include button($button-background: $light, $size: "lg");
+}
 
-.button-md {
+.button-md-light {
     @include button($button-background: $dark, $size: "md");
 }
+.button-md-dark {
+    @include button($button-background: $light, $size: "md");
+}
+

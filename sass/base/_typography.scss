@@ -2,7 +2,7 @@
 
 .logo {
     font-size: 1.25rem;
-    height: 90px;
+    min-height: 90px;
 
     .initial {
         font-family: "Marck Script";
@@ -14,7 +14,6 @@
     font-size: 1.4rem;
     letter-spacing: 0.1em;
     font-weight: 600;
-    text-align: center;
 }
 
 a { text-decoration: none; }

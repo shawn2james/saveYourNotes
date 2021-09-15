@@ -9,46 +9,78 @@
     <title>Runaway | SaveYourNotes</title>
 </head>
 <body>
-    <div class="backdrop-container">
-        <header>
-            <div class="container flex flex-col items-center space-y-5 py-7 rounded-b-3xl bg-light text-dark w-10/12 m-auto">
-                <div class="tracking-widest font-bold text-xl w-10/12 m-auto text-center">
-                    Runaway<br>
-                    <span class="text-sm">by Aurora</span>
-                </div>
-                <div class="flex justify-evenly items-center space-x-2">
-                    <span class="font-bold bg-secondary rounded-xl text-sm px-3 py-1">Pop</span>
-                    <span class="font-bold bg-secondary rounded-xl text-sm px-3 py-1">Medium difficulty</span>
-                </div>
-                <button class="bg-dark text-light w-10/12 font-normal py-3"> Go to original source </button>
+    <header>
+        <div class="container w-60 m-auto">
+            <div class="song-name">Runaway</div>
+            <div class="song-author">by Aurora</div>
+            <div class="song-details flex justify-evenly">
+                <div class="song-genre">Pop</div>
+                <div class="song-difficulty">Medium difficulty</div>
             </div>
-        </header>
+            <button class="button-md-dark"> Go to original source </button>
+        </div>
+    </header>
 
-        <main>
-            <div class="container">
-                <section id="attachments" class="py-10">
-                    <div class="flex justify-between w-10/12 m-auto">
-                        <span class="font-bold text-xl">Attachments</span>
-                        <button class="bg-light text-dark px-3">
-                            <span>Add</span>
-                            <img src="assets/add-icon.png" alt="" class="inline-block">
-                        </button>
-                    </div>
-                    <div class="flex flex-col space-y-3 mt-5 text-sm">
-                        <div class="bg-light text-dark w-10/12 m-auto rounded-2xl py-1 pl-4">song_played.mp3</div>
-                        <div class="bg-light text-dark w-10/12 m-auto rounded-2xl py-1 pl-4">music_sheet.pdf</div>
-                        <div class="bg-light text-dark w-10/12 m-auto rounded-2xl py-1 pl-4">demo.mp4</div>
-                    </div>
-                </section>
+    <main>
+        <div class="container">
+            <section id="attachments">
+                <div class="flex justify-between w-full">
+                    <span class="title">Attachments</span>
+                    <button class="button-md-light">
+                        Add
+                        <img src="assets/add-icon.png" alt="" class="inline-block">
+                    </button>
+                </div>
+                <div class="files flex flex-col">
+                    <div class="file">song_played.mp3</div>
+                    <div class="file">music_sheet.pdf</div>
+                    <div class="file">demo.mp4</div>
+                </div>
+            </section>
 
-                <section id="music-notes">
-                    <div class="flex justify-between w-10/12 m-auto">
-                        <span class="font-bold text-xl">Music Notes</span>
-                        <img src="assets/edit-icon.png" alt="" title="Edit">
+            <section id="music-notes">
+                <div class="flex justify-between w-full">
+                    <span class="title">Music Notes</span>
+                    <img src="assets/edit-icon.png" alt="" title="Edit">
+                </div>
+                <div>
+                    <div class="notes-container">
+                        <span>R</span>
+                        <div class="notes">
+                            <span class="c note" id="note-1">C</span>
+                            <span class="d note" id="note-2">D</span>
+                            <span class="e note" id="note-3">E</span>
+                            <span class="f note" id="note-4">F</span>
+                            <span class="c note" id="note-5">C</span>
+                            <span class="d note" id="note-6">D</span>
+                            <span class="e note" id="note-7">E</span>
+                            <span class="f note" id="note-8">F</span>
+                            <span class="c note" id="note-9">C</span>
+                            <span class="d note" id="note-10">D</span>
+                            <span class="e note" id="note-11">E</span>
+                            <span class="f note" id="note-12">F</span>
+                        </div>
                     </div>
-                </section>
-            </div>
-        </main>
-    </div>
+                    <div class="notes-container">
+                        <span>L</span>
+                        <div class="notes">
+                            <span class="c note">C</span>
+                            <span class="d note">D</span>
+                            <span class="e note">E</span>
+                            <span class="f note">F</span>
+                            <span class="c note">C</span>
+                            <span class="d note">D</span>
+                            <span class="e note">E</span>
+                            <span class="f note">F</span>
+                            <span class="c note">C</span>
+                            <span class="d note">D</span>
+                            <span class="e note">E</span>
+                            <span class="f note">F</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 </html>

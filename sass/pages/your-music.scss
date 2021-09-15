@@ -1,0 +1,27 @@
+@use '../abstracts/' as *;
+
+.filter {
+    margin-right: 1em;
+}
+
+main {
+    .song {
+        padding: 1rem 0.5rem;
+
+        &:active {
+            background-color: $light;
+            color: $dark;
+            cursor: pointer;
+        }
+
+        &-name {
+            font-size: 1.15rem; 
+            font-weight: 800;
+        }
+
+        &-author {
+            font-size: 0.75rem;
+            font-weight: normal;
+        }
+    }
+}

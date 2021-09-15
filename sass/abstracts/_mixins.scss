@@ -1,18 +1,23 @@
 @use 'variables' as *;
 @use 'functions' as *;
 
-@mixin button($button-background: $dark, $size: "sm") {
+@mixin button($button-background: $dark, $size) {
     background-color: set-color($button-background);
     color: set-color(set-color($button-background));
-    @if ($size: "lg") {
-        font-size: 15px;
-        padding: 8px 15px;
-    } @else {
-        font-size: 12px;
-        padding: 6px 10px;
+
+    @if ($size == "lg") {
+        font-size: 0.9rem;
+        padding: 0.7em 1em;
+    } @else if ($size == "md") {
+        font-size: 0.7rem;
+        padding: 0.5em 0.8em;
+    } @else if ($size == "sm") {
+        font-size: 0.5rem;
+        padding:  0.3em 0.6em;
     }
+
     font-weight: 600;
     border-radius: 20px;
-    margin: 0 5px;
-    border: 0;
+    border: none;
+    text-align: center;
 }

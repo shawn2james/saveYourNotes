@@ -10,12 +10,11 @@ body {
   font-family: "Poppins";
   background-color: black;
   color: #f8f8f8;
-  letter-spacing: 0.025rem;
 }
 
 .logo {
   font-size: 1.25rem;
-  height: 90px;
+  min-height: 90px;
 }
 .logo .initial {
   font-family: "Marck Script";
@@ -26,33 +25,76 @@ body {
   font-size: 1.4rem;
   letter-spacing: 0.1em;
   font-weight: 600;
-  text-align: center;
 }
 
 a {
   text-decoration: none;
 }
 
-.button-lg {
+.button-sm-light {
   background-color: #f8f8f8;
   color: black;
-  font-size: 15px;
-  padding: 8px 15px;
+  font-size: 0.5rem;
+  padding: 0.3em 0.6em;
   font-weight: 600;
   border-radius: 20px;
-  margin: 0 5px;
-  border: 0;
+  border: none;
+  text-align: center;
 }
 
-.button-md {
-  background-color: #f8f8f8;
-  color: black;
-  font-size: 15px;
-  padding: 8px 15px;
+.button-sm-dark {
+  background-color: black;
+  color: #f8f8f8;
+  font-size: 0.5rem;
+  padding: 0.3em 0.6em;
   font-weight: 600;
   border-radius: 20px;
-  margin: 0 5px;
-  border: 0;
+  border: none;
+  text-align: center;
+}
+
+.button-lg-light {
+  background-color: #f8f8f8;
+  color: black;
+  font-size: 0.9rem;
+  padding: 0.7em 1em;
+  font-weight: 600;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+}
+
+.button-lg-dark {
+  background-color: black;
+  color: #f8f8f8;
+  font-size: 0.9rem;
+  padding: 0.7em 1em;
+  font-weight: 600;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+}
+
+.button-md-light {
+  background-color: #f8f8f8;
+  color: black;
+  font-size: 0.7rem;
+  padding: 0.5em 0.8em;
+  font-weight: 600;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+}
+
+.button-md-dark {
+  background-color: black;
+  color: #f8f8f8;
+  font-size: 0.7rem;
+  padding: 0.5em 0.8em;
+  font-weight: 600;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
 }
 
 .divider {
@@ -70,12 +112,20 @@ a {
   align-items: center;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .justify-evenly {
   justify-content: space-evenly;
 }
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .justify-end {
@@ -90,13 +140,34 @@ a {
   align-items: space-between;
 }
 
+.align-around {
+  align-items: space-around;
+}
+
 .alig-end {
   align-items: flex-end;
 }
 
 .container {
   width: 90%;
-  margin: auto;
+  margin: 0.5em auto;
+  padding: 1rem 0;
+}
+
+.c.note {
+  background-color: #11e126;
+}
+
+.d.note {
+  background-color: #dced1f;
+}
+
+.e.note {
+  background-color: #e18211;
+}
+
+.f.note {
+  background-color: #cccccc;
 }
 
 .w-full {
@@ -123,30 +194,52 @@ a {
   width: 60%;
 }
 
+.w-25 {
+  width: 25%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-half {
+  height: 50%;
+}
+
+.h-90 {
+  height: 90%;
+}
+
+.h-80 {
+  height: 80%;
+}
+
+.h-75 {
+  height: 75%;
+}
+
+.h-60 {
+  height: 60%;
+}
+
 .m-auto {
   margin: auto;
 }
 
-.container {
-  width: 90%;
-  padding: 20px 0;
+.m-1 {
+  margin: 0.25rem;
 }
 
-.navbar .nav-item {
-  color: #f8f8f8;
-  font-size: 0.875rem;
+.m-2 {
+  margin: 0.5rem;
 }
 
-#hero {
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 800;
-  letter-spacing: 4px;
-  line-height: 2;
+.m-3 {
+  margin: 0.75rem;
 }
-#hero img {
-  height: auto;
-  margin: auto;
+
+.m-4 {
+  margin: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
