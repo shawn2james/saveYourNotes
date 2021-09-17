@@ -1,1 +1,1 @@
-[View issue](/../../issues/1)
+# SaveYourNotes Web App
