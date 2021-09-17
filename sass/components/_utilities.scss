@@ -21,12 +21,14 @@
 .justify-evenly { justify-content: space-evenly; }
 .justify-between { justify-content: space-between; }
 .justify-around { justify-content: space-around; }
+.justify-start { justify-content: flex-start; }
 .justify-end { justify-content: flex-end; }
 
 .align-evenly { align-items: space-evenly; }
 .align-between { align-items: space-between; }
 .align-around { align-items: space-around; }
-.alig-end { align-items: flex-end; }
+.align-start { align-items: flex-start; }
+.align-end { align-items: flex-end; }
 
 .container {
     width: 90%;

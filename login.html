@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/home.css">
-    <title>SaveYourNotes | Home</title>
+    <link rel="stylesheet" href="css/login.css">
+    <title>SaveYourNotes | Login</title>
 </head>
 <body>
     <header>
@@ -21,9 +21,9 @@
             <nav class="navbar flex justify-evenly">
                 <a href="#" class="nav-item" id="home-tab">Home</a>
                 <a href="#" class="nav-item" id="about-tab">About</a>
-                <a href="login.html" class="nav-item" id="log-in-tab">Log in</a>
+                <a href="your_music.html" class="nav-item" id="log-in-tab">Log in</a>
                 <button class="button-lg-light nav-item" id="sign-up-tab">
-                    <span>Sign up</span>
+                    <span>Sign up</span
                 </button>
             </nav>
         </div>
@@ -31,20 +31,14 @@
 
     <main>
         <div class="container">
-            <!-- HERO SECTION -->
-            <div id="hero">
-                <img class="w-80 m-auto" src="assets/hero-illustration.png" id="hero-illustration">
-                <span id="hero-message">SAVING YOUR<br>MUSIC HAVE<br>NEVER BEEN<br>EASIER</span>
-            </div>
-            <!-- DIVIDER -->
-            <div class="divider">
-                <img src="assets/music-icon.png" alt="">
-                <img src="assets/music-icon.png" alt="">
-                <img src="assets/music-icon.png" alt="">
-                <img src="assets/music-icon.png" alt="">
-                <img src="assets/music-icon.png" alt="">
-                <img src="assets/music-icon.png" alt="">
-            </div>
+            <form id="login">
+                <fieldset class="flex flex-col justify-evenly align-start">
+                    <legend>JOIN</legend>
+
+                    <p> <input type="email" name="email" id="email" placeholder="Enter your email..."> </p>
+                    <p> <input type="password" name="password" id="password" placeholder="Enter your password..."> </p>
+                </fieldset>
+            </form>
         </div>
     </main>
 </body>
