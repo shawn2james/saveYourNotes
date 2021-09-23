@@ -49,7 +49,6 @@ header .container .song-genre, header .container .song-difficulty {
 }
 #music-notes .notes {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(5, 1fr);
   grid-row-gap: 0.3rem;
   font-size: 0.8rem;
@@ -63,16 +62,20 @@ header .container .song-genre, header .container .song-difficulty {
   height: 1rem;
 }
 #music-notes #note-1 {
-  grid-column: 1/span 2;
+  grid-row: 1;
+  grid-column: 1/span 4;
 }
 #music-notes #note-2 {
-  grid-column: 3/span 3;
+  grid-row: 1;
+  grid-column: 5/span 3;
 }
 #music-notes #note-3 {
-  grid-column: 6/span 2;
+  grid-row: 1;
+  grid-column: 8/span 6;
 }
 #music-notes #note-4 {
-  grid-column: 10/span 2;
+  grid-row: 2;
+  grid-column: 14/span 2;
 }
 
 /*# sourceMappingURL=music.css.map */
