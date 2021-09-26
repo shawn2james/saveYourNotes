@@ -2,6 +2,14 @@ const NOTE_WIDTH = 15;
 let notClicked = true;
 let lastMouseX = 0;
 
+const mouse = {
+    clicked: false,
+    note: notes[0],
+    x: 0,
+    y: 0,    
+}
+
+
 document.body.onmousedown = () => { mouse.clicked = true; }
 document.body.onmouseup = () => { mouse.clicked = false; }
 
@@ -35,13 +43,6 @@ function getEdge(note, mouseX, mouseY) {
     } else {
         return null;
     }
-}
-
-const mouse = {
-    clicked: false,
-    note: notes[0],
-    x: 0,
-    y: 0,    
 }
 
 const resizeNote = (e) => {
