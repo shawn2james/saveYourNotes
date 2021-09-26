@@ -68,6 +68,11 @@ header .container {
         border-radius: 25px;
         color: $dark;
         height: 1rem;
+        transition: transform;
+    }
+
+    .note:hover {
+        transform: scale(1.05);
     }
 
     #note-1 {

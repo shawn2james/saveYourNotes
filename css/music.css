@@ -60,6 +60,10 @@ header .container .song-genre, header .container .song-difficulty {
   border-radius: 25px;
   color: black;
   height: 1rem;
+  transition: transform;
+}
+#music-notes .note:hover {
+  transform: scale(1.05);
 }
 #music-notes #note-1 {
   grid-row: 1;
