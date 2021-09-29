@@ -7,6 +7,4 @@ const Logo = () => (
     </StyledLogo>
 );
 
-{/* className="logo w-full flex" */}
-
 export default Logo;
