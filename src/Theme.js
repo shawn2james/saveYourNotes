@@ -20,6 +20,18 @@ const theme = {
     fonts: {
         normalFontStack: '"Poppins", Arial, Helvetica',
         initialFontStack: '"Marck Script", "Poppins", Helvetica'
+    },
+
+    fontSizes: {
+        lg: "0.9rem",
+        md: "0.7rem",
+        sm: "0.5rem"
+    },
+
+    padding: {
+        lg: "0.7em 1em",
+        md: "0.5em 0.8em",
+        sm: "0.3em 0.6em"
     }
 }
 

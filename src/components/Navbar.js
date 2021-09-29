@@ -1,13 +1,12 @@
 import StyledNavbar from './styles/Navbar.styled';
+import StyledButton from './styles/Button.styled';
 
 const Navbar = () => (
     <StyledNavbar>
         <a href="/">Home</a>
         <a href="/">About</a>
         <a href="/">Log in</a>
-        <button className="button-lg-light nav-item" id="sign-up-tab">
-            <span>Sign up</span>
-        </button>
+        <StyledButton size="lg">Sign up</StyledButton>
     </StyledNavbar>
 );
 
